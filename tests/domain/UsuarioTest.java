@@ -1,21 +1,21 @@
 package domain;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.Assert.*;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.Test;
 
-class UsuarioTest {
+public class UsuarioTest {
 
 	private Usuario usuario;
 	
-	@BeforeEach
-	void setUp() throws Exception {
+	@Before
+	public void setUp() throws Exception {
 		usuario = new Usuario("Pablo", 24);
 	}
 
 	@Test
-	void testCreacionDeUsuario() {
+	public void testCreacionDeUsuario() {
 		assertTrue(usuario.getNombre() == "Pablo");
 		assertTrue(usuario.getEdad() == 24);
 	}

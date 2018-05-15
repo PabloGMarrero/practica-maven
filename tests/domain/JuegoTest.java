@@ -1,29 +1,31 @@
 package domain;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
-import org.junit.jupiter.api.BeforeEach;
-import org.junit.jupiter.api.Test;
+import org.junit.Before;
+import org.junit.Test;
 
-class JuegoTest {
+
+public class JuegoTest {
 
 	private Juego juego;
 	private Usuario usuarioMock;
 
-	@BeforeEach
-	void setUp() throws Exception {
+	@Before
+	public void setUp() throws Exception {
 		juego = new Juego();
 		usuarioMock = mock(Usuario.class);
 	}
 
 	@Test
-	void testCreacionalJuego() {
+	public void testCreacionalJuego() {
 		assertTrue(juego.cantidadUsuarios() == 0);
 	}
 	
 	@Test
-	void testAgregoUnUsuarioAlJuego() {
+	public void testAgregoUnUsuarioAlJuego() {
 		juego.agregarUsuario(usuarioMock);
 		assertTrue(juego.cantidadUsuarios() == 1);
 	}
