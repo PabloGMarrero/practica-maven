@@ -9,4 +9,5 @@ Repo para pequeño taller en Objetos 2 explicando un poquito el mundo Maven
 	* Open projects from File System
 	* Buscar desde el bótón directory hasta el raiz del proyecto.
 	* Apretar Finish
-4. Update project blabla
+4. Update project (alt + F5 atajo)
+	* Click secundario en el proyecto -> Maven -> Update project
