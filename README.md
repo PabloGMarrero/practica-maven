@@ -11,3 +11,9 @@ Repo para pequeño taller en Objetos 2 explicando un poquito el mundo Maven
 	* Apretar Finish
 4. Update project (alt + F5 atajo)
 	* Click secundario en el proyecto -> Maven -> Update project
+
+## Probar todos haciendo click secundario en el proyecto -> Run as ->
+
+1. Maven build
+2. Maven test
+3. Maven 
