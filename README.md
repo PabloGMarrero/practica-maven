@@ -12,8 +12,11 @@ Repo para pequeño taller en Objetos 2 explicando un poquito el mundo Maven
 4. Update project (alt + F5 atajo)
 	* Click secundario en el proyecto -> Maven -> Update project
 
-## Probar todos haciendo click secundario en el proyecto -> Run as ->
+## Probar los comandos haciendo click secundario en el proyecto -> Run as ->
 
-1. Maven build
+1. Maven install
+	* Instala los paquetes que están descargados en el repo local de tu pc.
 2. Maven test
-3. Maven 
+	* Corre los tests usando el framework de testing configurado en nuestro pom.
+3. Maven build 
+	* Realiza todo lo que está configurado en nuestro pom (tests, deploy, integration-test, validate, deploy, etc).
